@@ -1,0 +1,199 @@
+*{
+    font-family: Arial;
+    margin: 0px;
+}
+.heroimage{
+    background-image: url(bloodcenter.jpg);
+    height: 485px;
+    width: 100%;
+    background-size: cover;
+}
+
+.service{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.service-info{
+    line-height: 2rem;
+    margin-right: 50px; 
+}
+.service-name {
+    display: flex;
+    /* background-color: #dddddd; */
+    height: 350px;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 350px;
+    font-size: xxx-large;
+    /* font-family: cursive; */
+    font-weight: bolder;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+thead {
+    background-color: #2D336B;
+    color: #fff;
+}
+
+th, td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* button.update_btn {
+    background-color: #8691b9;
+    color: white;
+    font-weight: bold;
+    font-size: large;
+    height: 3rem;
+    border: none;
+    cursor: pointer;
+    padding: 11px 40px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    /* margin-left: 33rem;
+    margin-bottom: 3rem;
+    margin-top: 1rem; */
+ */
+
+.facilities{
+    line-height: 2rem;
+    margin-left: 15rem;
+    margin-right: 15rem;
+    text-align: justify;
+}
+
+.pillars h2{
+    text-align: center;
+    margin-top: 2rem;
+
+}
+
+.pillars hr{
+    color: #333;
+    margin-left: 15rem ;
+    margin-right: 15rem;
+}
+.img-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+}
+
+img{
+    height: 215px;
+}
+.names {
+    display: flex;
+    justify-items: space-evenly;
+    margin-bottom: 3rem;
+}
+p.firstname {
+    margin-left: 16rem;
+}
+p.secondname {
+    margin-left: 27rem;
+}
+p.thirdname {
+    margin-left: 23rem;
+}
+
+.social-worker{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+    font-size: x-large;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.details {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.s-name {
+    font-size: large;
+}
+
+.s-role {
+    font-size: smaller;
+    color: #9b9184;
+}
+.s-number {
+    font-size: xx-large;
+    margin-bottom: 2rem;
+}
+
+.other-members hr{
+    color: #333;
+    margin-left: 12rem ;
+    margin-right: 12rem;
+    margin-bottom: 2rem;
+}
+
+.communication {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 3rem;
+}
+.text {
+    font-size: small;
+    color: #9b9184;
+    text-align: center;
+}
+.text {
+    font-size: medium;
+    color: #9b9184;
+    text-align: center;
+}
+.number {
+    font-size: x-large;
+}
+.communication-email {
+    font-size: x-large;
+}
