@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patient-Login Page</title>
+    <link rel="stylesheet" href="styleindex.css">
+    <link rel="stylesheet" href="patient.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+  <header>
+    <navbar>
+        <!-- left nav -->
+        <nav1 class="nav1">
+            <a href="BloodCenter.html"><button class="btn1">Blood Center</button></a>
+            <div class="ambulance">Ambulance:+91 7887351465</div>
+            <a class="payment" href="onlinepayment.html">Online Payment</a>
+            <!-- Right nav -->
+            <div class="right-nav">
+                <a href="login.html" class="login">Login</a>
+                <a href="contactus.html" class="contact">Contact Us</a>
+                <div class="socialmedia">
+                  <a href="index.html">
+                    <i class="fa-solid fa-house"></i>
+                </a>
+                <!-- <a href="#">
+                    <i class="fa-brands fa-instagram"></i>
+                </a> -->
+                </div>
+
+            </div>
+
+        </nav1>
+        <!-- second nav -->
+        <!-- <div class="logo"></div> -->
+       <nav2 class="nav2">
+                <div class="logo"></div>
+                <div class="nav2-ops">
+                    <a href="login.html">Book Appointment</a>
+                    <a href="aboutus.html">About us</a>
+                    <a href="specialities.html">Specialities</a>
+                    <a href="opdtimings.php">OPD Timings</a>
+                    <a href="InternationalPatient.html">International Patients</a>
+                    <a href="empanelment.html">Empanelment</a>
+                </div>
+                </div>
+            </nav2>
+    </navbar>
+</header>
+<content>
+    <!-- hero image -->
+    <div class="heroimageadmin">
+        <div class="headingindxadmin">Patient<br>Login-Page</div>
+    </div>
+    <!-- other body -->
+    <div class="container">
+        <h1>Welcome to Digital Patient Portal</h1>
+    
+        <section class="card">
+          <h2>Book Appointment</h2>
+          <form action="book_appointment.php" method="POST">
+            <input type="text" name="name" placeholder="Full Name" required />
+            <input type="date" name="date" required />
+            <input type="time" name="time" required />
+            <input type="text" name="doctor" placeholder="Doctor Name" required />
+            <button type="submit">Book Now</button>
+          </form>
+        </section>
+    
+        <section class="card">
+          <h2>Send Query</h2>
+          <form action="patienttodocquery.php" method="POST">
+            <label for="patientName">Patient Name:</label>
+              <input type="text" id="patientName" name="patientName" required>
+          
+              <label for="subject">Subject:</label>
+              <input type="text" id="subject" name="subject" required>
+          
+              <label for="query">Enter you Query:</label>
+              <textarea id="query" name="query" rows="4" required></textarea>
+            <button type="submit">Send Query</button>
+          </form>
+        </section>
+    
+        <section class="card">
+          <form action="upload_report.php" method="post" enctype="multipart/form-data">
+          <label for="patientName">Patient Name:</label>
+          <input type="text" id="patientName" name="patientName" required><br><br>
+
+          <label for="reportFile">Upload Report:</label>
+          <input type="file" id="reportFile" name="reportFile" required><br><br>
+
+          <input type="submit" value="Upload">
+          </form>
+
+        </section>
+    
+        <!-- <section class="card">
+          <h2>Your Appointments</h2>
+          This part would dynamically load using PHP or JavaScript
+          <div id="appointments">
+            <p>No appointments yet.</p>
+            Example entry
+            <p>Dr. Sharma - 2025-05-10 at 10:30 AM</p>
+          </div>
+        </section> -->
+        <section class="prescription-viewer">
+         <h2>View Prescription</h2>
+         <iframe src="view_prescription.php" style="width: 100%; height: 550px; border: none;"></iframe>
+        </section>
+        <section id="send-query to" class="card">
+          <h2>Send Query to Administrator</h2>
+          <form action="send_query_to_admin.php" method="POST" class="query-form">
+          <input type="text" name="name" placeholder="Your Name" required>
+          <input type="email" name="email" placeholder="Your Email" required>
+          <textarea name="query" placeholder="Write your query here..." required></textarea>
+          <button type="submit">Submit Query</button>
+          </form>
+        </section>
+          
+        
+    
+    </div>
+</content>
+<footer>
+  <div class="footpanel-2">
+       <ul>
+                <p>Quick Links</p>
+                <a href="login.html">Book Appointment</a>
+                <a href="aboutus.html">About us</a>
+                <a href="specialities.html">Specialities</a>
+                <a href="empanelment.html">Empanelment</a>
+                <a href="opdtimings.php">Opd Timings</a>
+                <a href="InternationalPatient.html">International Patient</a>
+            </ul>
+      <ul>
+          <p>Hospital Address</p>
+          <div class="address">
+              <p><b>HealthFirst Medical Center</b>
+                  <br>Old Charholi road,
+                  <br>near Gangotri Enterprises,
+                  <br>Chaudhary Park,
+                  <br>Dighi, Pune 411015
+              </p>
+          </div>
+      </ul>
+      <ul>
+          <div class="emergency">
+              <p>Hospital Emergency Cases</p>
+              Operator:
+              <a>+91 788734165</a>
+              Ambulance:
+              <a>+91 7887351465</a>
+              <a>+91 7887351466</a>
+              Emergency:
+              <a>+91 9850233174</a>
+              <a>+91 9850233175</a>
+              <a>+91 9850233176</a>
+          </div>
+      </ul>
+
+      <ul>
+          <p>About Hospital</p>
+          <div class="about-footer">
+              <p>HealthFirst Medical Center is dedicated<br> to providing comprehensive and compassionate<br>
+                  healthcare
+                  services to the community. Our team of<br> experienced professionals specializes in<br>
+                  preventive care, as
+                  well as the diagnosis and treatment of<br> various medical conditions, ensuring personalized<br>
+                  attention
+                  for each patient.
+              </p>
+          </div>
+      </ul>
+
+  </div>
+  <div class="copyright">
+      © 2024-2025, HealthFirst Medical Center.
+  </div>
+  </div>
+</footer>
