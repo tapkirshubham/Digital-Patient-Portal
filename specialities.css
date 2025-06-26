@@ -1,0 +1,145 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f7fa;
+}
+
+.heroimgspec {
+    background-image: url(specialities.jpg);
+    height: 40rem;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+}
+
+.headingheroimgspec {
+    margin-left: 7rem;
+    margin-top: 30rem;
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    font-size: 3rem;
+    text-shadow: 0px 4px #000000;
+    color: #ffffff;
+    font-family: 'Font Awesome 6 Brands';
+    letter-spacing: 8px;
+    font-weight: bold;
+}
+
+.specialities-section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.specialities-section h1 {
+    font-size: 2.5rem;
+    color: #2D336B;
+}
+
+.intro {
+    max-width: 700px;
+    margin: 16px auto 40px auto;
+    font-size: 1.1rem;
+    color: #333;
+}
+
+.speciality-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 25px;
+    padding: 0 20px;
+}
+
+.speciality-card {
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+}
+
+.speciality-card:hover {
+    transform: translateY(-5px);
+}
+
+.speciality-card i {
+    font-size: 2.5rem;
+    color: #2D336B;
+    margin-bottom: 15px;
+}
+
+.speciality-card h3 {
+    font-size: 1.3rem;
+    color: #444;
+    margin-bottom: 10px;
+}
+
+.speciality-card p {
+    font-size: 0.95rem;
+    color: #555;
+}
+.why-choose-us {
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  .why-choose-us h2 {
+    font-size: 2.4rem;
+    color: #2D336B;
+    margin-bottom: 10px;
+  }
+  
+  .intro-text {
+    font-size: 1.1rem;
+    color: #444;
+    margin-bottom: 40px;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .reasons-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+    padding: 0 20px;
+  }
+  
+  .reason-card {
+    background-color: white;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease;
+  }
+  
+  .reason-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .reason-card i {
+    font-size: 2.5rem;
+    color: #2D336B;
+    margin-bottom: 15px;
+  }
+  
+  .reason-card h3 {
+    font-size: 1.3rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .reason-card p {
+    font-size: 0.95rem;
+    color: #666;
+  }
+  .services-section-heading {
+    font-size: 2.4rem;
+    color: #2D336B;
+    margin-bottom: 10px;
+    font-weight: bold;
+}  
+.services-section{
+    background-color: #f5f7fa
+}
