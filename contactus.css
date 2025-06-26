@@ -1,0 +1,146 @@
+*{
+    font-family: Arial;
+    margin: 0px;
+}
+.heroimage{
+    background-image: url(contactus.jpg);
+    height: 485px;
+    width: 100%;
+    background-size: cover;
+    
+}
+.contact-text{
+    background-color: #dddddd;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.title{
+    display: flex;
+    /* background-color: #dddddd; */
+    height: 350px;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 350px;
+    font-size: xxx-large;
+    /* font-family: cursive; */
+    font-weight: bolder;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.contactus-text{
+    line-height: 2rem;
+    margin-right: 50px;
+}
+
+.getintouch-heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5rem;
+}
+.getintouch-form{
+    box-sizing: border-box;
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
+.getintouch-form label{
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333;
+}
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+.getintouch-form textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Comfortable padding */
+    margin-bottom: 16px; /* Space between fields */
+    border: 1px solid #ccc; /* Subtle border */
+    border-radius: 4px; /* Rounded corners */
+    font-size: 16px; /* Readable font size */
+}
+.getintouch-form textarea {
+    height: 150px; /* Adequate height for comments */
+    resize: vertical; /* Allow vertical resizing */
+}
+/* Style for the select dropdown */
+select {
+    width: 100%; /* Full width */
+    padding: 12px; /* Comfortable padding */
+    margin-bottom: 16px; /* Space between fields */
+    border: 1px solid #ccc; /* Subtle border */
+    border-radius: 4px; /* Rounded corners */
+    font-size: 16px; /* Readable font size */
+    background-color: #fff; /* White background */
+    color: #333; /* Dark gray text */
+    cursor: pointer; /* Pointer cursor on hover */
+    appearance: none; /* Remove default styling */
+    -webkit-appearance: none; /* Remove default styling for Safari */
+    -moz-appearance: none; /* Remove default styling for Firefox */
+}
+
+/* Style for the select dropdown when focused */
+select:focus {
+    border-color: #4CAF50; /* Highlight border color */
+    outline: none; /* Remove default focus outline */
+}
+
+/* Style for the dropdown arrow */
+.select-container {
+    position: relative;
+}
+
+.select-container::after {
+    content: '\25BC'; /* Unicode character for down arrow */
+    font-size: 16px;
+    color: #333;
+    position: absolute;
+    top: 50%;
+    right: 12px;
+    transform: translateY(-50%);
+    pointer-events: none; /* Ensure click events pass through */
+}
+
+input[type="submit"] {
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    padding: 14px 20px; /* Comfortable padding */
+    border: none; /* No border */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 16px; /* Readable font size */
+    margin-left: 35rem;
+}
+
+/* Hover effect for the submit button */
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.contact-details {
+    display: grid;
+    /* color: black; */
+    align-items: center;
+    justify-content: center;
+    margin-top: 5rem;
+    background-color: #e4dfdf;
+    margin-left: 28rem;
+    margin-right: 28rem;
+    line-height: 1.75rem;
+    margin-bottom: 5rem;
+}
+.details {
+    margin-top: 1.5rem;
+    margin-bottom: 5rem;
+    line-height: 1.5rem;
+}
+.details a {
+    color: blue;
+}
+.head {
+    font-size: larger;
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+}
