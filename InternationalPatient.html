@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>International Patient</title>
+    <link rel="stylesheet" href="styleindex.css">
+    <link rel="stylesheet" href="InternationalPatient.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+  <header>
+    <navbar>
+        <!-- left nav -->
+        <nav1 class="nav1">
+            <a href="BloodCenter.html"><button class="btn1">Blood Center</button></a>
+            <div class="ambulance">Ambulance:+91 7887351465</div>
+            <a class="payment" href="onlinepayment.html">Online Payment</a>
+            <!-- Right nav -->
+            <div class="right-nav">
+                <a href="login.html" class="login">Login</a>
+                <a href="contactus.html" class="contact">Contact Us</a>
+                <div class="socialmedia">
+                  <a href="index.html">
+                    <i class="fa-solid fa-house"></i>
+                </a>
+                <!-- <a href="#">
+                    <i class="fa-brands fa-instagram"></i>
+                </a> -->
+                </div>
+
+            </div>
+
+        </nav1>
+        <!-- second nav -->
+        <!-- <div class="logo"></div> -->
+        <nav2 class="nav2">
+                <div class="logo"></div>
+                <div class="nav2-ops">
+                    <a href="login.html">Book Appointment</a>
+                    <a href="aboutus.html">About us</a>
+                    <a href="specialities.html">Specialities</a>
+                    <a href="opdtimings.php">OPD Timings</a>
+                    <a href="InternationalPatient.html">International Patients</a>
+                    <a href="empanelment.html">Empanelment</a>
+                </div>
+                </div>
+            </nav2>
+    </navbar>
+</header>
+    <content>
+        <!-- heroimage -->
+        <div class="indeximg01">
+        <div class="headingindex01">International Patients</div>
+        </div>
+        <div class="welcome">
+        <div class="welcome-message">Why Choose <br> Us?</div>
+            <div class="welcome-text">
+                <p>HealthFirst Medical Center, has set new bench marks for standards in
+                    the health care industry and is recognised as one of the top hospitals</p>
+                <p>At HealthFirst Medical Center, our mission is to provide exceptional healthcare services that
+                    prioritize patient well-being, safety, and satisfaction. Established with a commitment to
+                    excellence, we have grown into a comprehensive healthcare institution, offering a wide range of
+                    medical services to meet the diverse needs of our community.</p>
+                <!-- <button class="service-button">View our Hospital Services</button> -->
+            </div>
+        </div>
+        <section class="international-services">
+            <h2>Our Services for International Patients</h2>
+            <p class="services-intro">
+                At HealthFirst Medical Center, we understand the unique needs of international patients seeking high-quality, affordable, and compassionate healthcare. Our dedicated International Patient Services team ensures a smooth and stress-free medical journey from your first inquiry to your return home. We provide personalized care, multilingual support, and full assistance with travel, stay, and treatment arrangements to make your experience as comfortable and successful as possible.
+              </p>              
+            <div class="services-container">
+              <ul class="services-left">
+                <li>Visa Invitation Letter Support</li>
+                <li>Airport Pickup & Drop</li>
+                <li>Online Medical Consultation</li>
+                <li>Customized Treatment Packages</li>
+                <li>Language Translation Assistance</li>
+                <li>Help with Local Accommodation</li>
+                <li>Priority Appointments with Specialists</li>
+              </ul>
+              <ul class="services-right">
+                <li>Dedicated International Helpdesk</li>
+                <li>Currency Exchange Guidance</li>
+                <li>Daily Progress Updates</li>
+                <li>Post-Treatment Travel Clearance</li>
+                <li>Online Follow-Up Services</li>
+                <li>Assistance with Local SIM Card</li>
+                <li>Ambulance and Emergency Care</li>
+              </ul>
+            </div>
+          </section>
+          <section class="treatment-process">
+            <h2>Treatment Process</h2>
+            <div class="process-steps">
+              <div class="step">
+                <h3>1. Initial Inquiry</h3>
+                <p>Patients contact us via email, phone, or online form to begin their medical journey.</p>
+              </div>
+              <div class="step">
+                <h3>2. Medical Evaluation</h3>
+                <p>Our experts assess medical reports and suggest the best treatment plan.</p>
+              </div>
+              <div class="step">
+                <h3>3. Treatment Plan & Cost</h3>
+                <p>We share estimated cost, procedure details, and expected duration.</p>
+              </div>
+              <div class="step">
+                <h3>4. Travel & Visa Assistance</h3>
+                <p>Support for medical visa letters, accommodation, and flight planning.</p>
+              </div>
+              <div class="step">
+                <h3>5. Arrival & Registration</h3>
+                <p>Warm welcome at the airport and smooth hospital admission process.</p>
+              </div>
+              <div class="step">
+                <h3>6. Diagnosis & Treatment</h3>
+                <p>Patient undergoes required investigations, surgeries, or therapy sessions.</p>
+              </div>
+              <div class="step">
+                <h3>7. Recovery & Discharge</h3>
+                <p>Post-treatment care and discharge with follow-up instructions.</p>
+              </div>
+              <div class="step">
+                <h3>8. Post-Treatment Follow-up</h3>
+                <p>Continued support through online consultation after returning home.</p>
+              </div>
+            </div>
+          </section>
+          <section class="enquiry-section">
+            <h2>Online Enquiry Form</h2>
+            <form class="enquiry-form" enctype="multipart/form-data" method="POST" action="submit_enquiry.php">
+
+              <label for="patientName">Patient Name:</label>
+              <input type="text" id="patientName" name="patientName" required>
+          
+              <label for="country">Country:</label>
+              <input type="text" id="country" name="country" required>
+          
+              <label for="concern">Medical Concern:</label>
+              <textarea id="concern" name="concern" rows="4" required></textarea>
+          
+              <label for="report">Attach Reports:</label>
+              <input type="file" id="report" name="report" accept=".pdf,.jpg,.png,.docx">
+          
+              <label for="contact">Contact Number:</label>
+              <input type="tel" id="contact" name="contact" required>
+          
+              <label for="email">Email ID:</label>
+              <input type="email" id="email" name="email" required>
+          
+              <button type="submit">Submit Enquiry</button>
+            </form>
+          </section>  
+          <section class="insurance-section">
+            <h2>International Health Insurance Partners</h2>
+            <div class="insurance-grid">
+              <!-- Repeat this block for each company -->
+              <div class="insurance-card">
+                <img src="Insurance/axa.png" alt="AXA">
+                <p>AXA</p>
+              </div>
+              <div class="insurance-card">
+                <img src="Insurance/allianz.png" alt="Allianz">
+                <p>Allianz</p>
+              </div>
+              <div class="insurance-card">
+                <img src="Insurance/Bupa.png" alt="Bupa">
+                <p>Bupa</p>
+              </div>
+              <div class="insurance-card">
+                <img src="Insurance/Cigna.png" alt="Cigna">
+                <p>Cigna</p>
+              </div>
+              <div class="insurance-card">
+                <img src="Insurance/Aetna.png" alt="Aetna">
+                <p>Aetna</p>
+              </div>
+              <div class="insurance-card">
+                <img src="Insurance/geoblue.png" alt="GeoBlue">
+                <p>GeoBlue</p>
+              </div>
+              <div class="insurance-card">
+                <img src="Insurance/metlife.png" alt="MetLife">
+                <p>MetLife</p>
+              </div>
+              <div class="insurance-card">
+                <img src="Insurance/UnitedHealthcare.png" alt="UnitedHealthcare">
+                <p>UnitedHealthcare</p>
+              </div>
+              <div class="insurance-card">
+                <img src="Insurance/msh.png" alt="MSH International">
+                <p>MSH International</p>
+              </div>
+              <div class="insurance-card">
+                <img src="Insurance/april.png" alt="APRIL International">
+                <p>APRIL International</p>
+              </div>
+              <div class="insurance-card">
+                <img src="Insurance/now.png" alt="Now Health">
+                <p>Now Health</p>
+              </div>
+              <div class="insurance-card">
+                <img src="Insurance/InternationalSOS.png" alt="International SOS">
+                <p>International SOS</p>
+              </div>
+              <div class="insurance-card">
+                <img src="Insurance/aia.jpg" alt="AIA">
+                <p>AIA</p>
+              </div>
+              <div class="insurance-card">
+                <img src="Insurance/sanitas.png" alt="Sanitas">
+                <p>Sanitas</p>
+              </div>
+              <div class="insurance-card">
+                <img src="Insurance/Aviva.png" alt="Aviva">
+                <p>Aviva</p>
+              </div>
+              <div class="insurance-card">
+                <img src="Insurance/humana.png" alt="Humana">
+                <p>Humana</p>
+              </div>
+              <div class="insurance-card">
+                <img src="Insurance/ihi.png" alt="IHI Bupa">
+                <p>IHI Bupa</p>
+              </div>
+              <div class="insurance-card">
+                <img src="Insurance/wpa.jpg" alt="WPA">
+                <p>WPA</p>
+              </div>
+              <div class="insurance-card">
+                <img src="Insurance/vhi.png" alt="Vhi Healthcare">
+                <p>Vhi Healthcare</p>
+              </div>
+              <div class="insurance-card">
+                <img src="Insurance/egk.png" alt="EGK">
+                <p>EGK</p>
+              </div>
+              <div class="insurance-card">
+                <img src="Insurance/axappp.png" alt="AXA PPP">
+                <p>AXA PPP</p>
+              </div>
+              <div class="insurance-card">
+                <img src="Insurance/Carehealth.png" alt="Care Health">
+                <p>Care Health</p>
+              </div>
+              <div class="insurance-card">
+                <img src="Insurance/star.png" alt="Star Health">
+                <p>Star Health</p>
+              </div>
+              <div class="insurance-card">
+                <img src="Insurance/Reliance.png" alt="Reliance Health">
+                <p>Reliance Health</p>
+              </div>
+              <div class="insurance-card">
+                <img src="Insurance/future.png" alt="Future Generali">
+                <p>Future Generali</p>
+              </div>
+              <div class="insurance-card">
+                <img src="Insurance/icici.png" alt="ICICI Lombard">
+                <p>ICICI Lombard</p>
+              </div>
+            </div>
+          </section>
+                 
+    </content>
+    <footer>
+      <div class="footpanel-2">
+           <ul>
+                <p>Quick Links</p>
+                <a href="login.html">Book Appointment</a>
+                <a href="aboutus.html">About us</a>
+                <a href="specialities.html">Specialities</a>
+                <a href="empanelment.html">Empanelment</a>
+                <a href="opdtimings.php">Opd Timings</a>
+                <a href="InternationalPatient.html">International Patient</a>
+            </ul>
+          <ul>
+              <p>Hospital Address</p>
+              <div class="address">
+                  <p><b>HealthFirst Medical Center</b>
+                      <br>Old Charholi road,
+                      <br>near Gangotri Enterprises,
+                      <br>Chaudhary Park,
+                      <br>Dighi, Pune 411015
+                  </p>
+              </div>
+          </ul>
+          <ul>
+              <div class="emergency">
+                  <p>Hospital Emergency Cases</p>
+                  Operator:
+                  <a>+91 788734165</a>
+                  Ambulance:
+                  <a>+91 7887351465</a>
+                  <a>+91 7887351466</a>
+                  Emergency:
+                  <a>+91 9850233174</a>
+                  <a>+91 9850233175</a>
+                  <a>+91 9850233176</a>
+              </div>
+          </ul>
+
+          <ul>
+              <p>About Hospital</p>
+              <div class="about-footer">
+                  <p>HealthFirst Medical Center is dedicated<br> to providing comprehensive and compassionate<br>
+                      healthcare
+                      services to the community. Our team of<br> experienced professionals specializes in<br>
+                      preventive care, as
+                      well as the diagnosis and treatment of<br> various medical conditions, ensuring personalized<br>
+                      attention
+                      for each patient.
+                  </p>
+              </div>
+          </ul>
+
+      </div>
+      <div class="copyright">
+          © 2024-2025, HealthFirst Medical Center.
+      </div>
+      </div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="styleindex.css">
+    <link rel="stylesheet" href="loginpg.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <header>
+        <navbar>
+            <!-- left nav -->
+            <nav1 class="nav1">
+                <a href="BloodCenter.html"><button class="btn1">Blood Center</button></a>
+                <div class="ambulance">Ambulance:+91 7887351465</div>
+                <a class="payment" href="onlinepayment.html">Online Payment</a>
+                <!-- Right nav -->
+                <div class="right-nav">
+                    <a href="login.html" class="login">Login</a>
+                    <a href="contactus.html" class="contact">Contact Us</a>
+                    <div class="socialmedia">
+                        <a href="index.html">
+                            <i class="fa-solid fa-house"></i>
+                        </a>
+                        <!-- <a href="#">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a> -->
+                    </div>
+
+                </div>
+
+            </nav1>
+            <!-- second nav -->
+            <!-- <div class="logo"></div> -->
+            <nav2 class="nav2">
+                <div class="logo"></div>
+                <div class="nav2-ops">
+                    <a href="login.html">Book Appointment</a>
+                    <a href="aboutus.html">About us</a>
+                    <a href="specialities.html">Specialities</a>
+                    <a href="opdtimings.php">OPD Timings</a>
+                    <a href="InternationalPatient.html">International Patients</a>
+                    <a href="empanelment.html">Empanelment</a>
+                </div>
+                </div>
+            </nav2>
+        </navbar>
+    </header>
+    <content>
+    <div class="container">
+        <div class="login-container">
+        <h1>Login</h1>
+       <form action="authenticate.php" method="post">
+            <div class="form-group">
+                <label for="role">Select Role</label>
+                <select id="role" name="role" required>
+                    <option value="doctor">Doctor</option>
+                    <option value="patient">Patient</option>
+                    <!-- <option value="staff">Staff</option> -->
+                    <option value="admin">Admin</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="id">ID</label>
+                <input type="text" id="id" name="id" required>
+            </div>
+            <button class="subbtn" type="submit">Login</button>
+        </form>
+    </div>
+        </div>
+    </content>
+    <footer>
+        <div class="footpanel-2">
+             <ul>
+                <p>Quick Links</p>
+                <a href="login.html">Book Appointment</a>
+                <a href="aboutus.html">About us</a>
+                <a href="specialities.html">Specialities</a>
+                <a href="empanelment.html">Empanelment</a>
+                <a href="opdtimings.php">Opd Timings</a>
+                <a href="InternationalPatient.html">International Patient</a>
+            </ul>
+            <ul>
+                <p>Hospital Address</p>
+                <div class="address">
+                    <p><b>HealthFirst Medical Center</b>
+                        <br>Old Charholi road,
+                        <br>near Gangotri Enterprises,
+                        <br>Chaudhary Park,
+                        <br>Dighi, Pune 411015
+                    </p>
+                </div>
+            </ul>
+            <ul>
+                <div class="emergency">
+                    <p>Hospital Emergency Cases</p>
+                    Operator:
+                    <a>+91 788734165</a>
+                    Ambulance:
+                    <a>+91 7887351465</a>
+                    <a>+91 7887351466</a>
+                    Emergency:
+                    <a>+91 9850233174</a>
+                    <a>+91 9850233175</a>
+                    <a>+91 9850233176</a>
+                </div>
+            </ul>
+
+            <ul>
+                <p>About Hospital</p>
+                <div class="about-footer">
+                    <p>HealthFirst Medical Center is dedicated<br> to providing comprehensive and compassionate<br>
+                        healthcare
+                        services to the community. Our team of<br> experienced professionals specializes in<br>
+                        preventive care, as
+                        well as the diagnosis and treatment of<br> various medical conditions, ensuring personalized<br>
+                        attention
+                        for each patient.
+                    </p>
+                </div>
+            </ul>
+
+        </div>
+        <div class="copyright">
+            © 2024-2025, HealthFirst Medical Center.
+        </div>
+        </div>
+    </footer>
+</body>
+</html>

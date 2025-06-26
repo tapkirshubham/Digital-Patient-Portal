@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f6fb;
+    color: #333;
+  }
+  
+  header1 {
+    background-color: #2D336B;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    display: block;
+  }
+  
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 30px;
+  }
+  
+  .card {
+    background: white;
+    width: 240px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    padding: 15px;
+  }
+  
+  .card img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 6px;
+  }
+  
+  .card h3 {
+    margin: 10px 0 5px;
+    color: #2D336B;
+  }
+  
+  .card p {
+    margin: 5px 0;
+  }
+
+  h2 {
+    text-align: center;
+    color: #0015dc;
+    margin-top: 3rem;
+  }
+  
+  .appointment-form {
+    max-width: 500px;
+    margin: auto;
+    background: white;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+  }
+  
+  label {
+    margin-top: 15px;
+    font-weight: bold;
+  }
+  
+  input, select {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+  }
+  
+.opdsub {
+    margin-top: 25px;
+    padding: 12px;
+    background-color: #2D336B;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .opdsub:hover {
+    background-color: #1f244f;
+  }
+  
+ 

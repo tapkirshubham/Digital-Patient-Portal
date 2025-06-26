@@ -1,0 +1,200 @@
+.indeximg01{
+    background-image: url(InternationalPatient.jpeg);
+    height: 530px;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    /* filter: blur(2px); */
+}
+.headingindex01{
+    margin-left: 5rem;
+    margin-top: 24rem;
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    font-size: 3rem;
+    font-weight: bold;
+    color: #ffffff;
+    font-family: 'Font Awesome 6 Brands';
+    letter-spacing: 8px;
+    text-shadow: 3px 3px black;
+}
+.international-services {
+    background-color: #f9f9f9;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .international-services h2 {
+    font-size: 28px;
+    margin-bottom: 30px;
+    color: #2D336B;
+  }
+  
+  .services-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+  
+  .services-left, .services-right {
+    list-style-type: none;
+    padding: 0;
+    width: 300px;
+    text-align: left;
+  }
+  
+  .services-left li, .services-right li {
+    background-color: #ffffff;
+    margin-bottom: 10px;
+    padding: 10px 15px;
+    border-left: 4px solid #2D336B;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  }
+  .services-intro {
+    max-width: 800px;
+    margin: 0 auto 30px auto;
+    font-size: 16px;
+    color: #444;
+    line-height: 1.6;
+  }
+  .treatment-process {
+    padding: 40px 20px;
+    background-color: #f2f4f7;
+    text-align: center;
+  }
+  
+  .treatment-process h2 {
+    color: #2D336B;
+    font-size: 28px;
+    margin-bottom: 30px;
+  }
+  
+  .process-steps {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .step {
+    background-color: white;
+    border-left: 5px solid #2D336B;
+    padding: 20px;
+    width: 280px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    text-align: left;
+  }
+  
+  .step h3 {
+    color: #2D336B;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .step p {
+    font-size: 15px;
+    color: #555;
+  }
+  .enquiry-section {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #f8fbff;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    font-family: Arial, sans-serif;
+  }
+  
+  .enquiry-section h2 {
+    text-align: center;
+    color: #2D336B;
+    margin-bottom: 20px;
+  }
+  
+  .enquiry-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .enquiry-form label {
+    margin-top: 15px;
+    font-weight: 600;
+    color: #333;
+  }
+  
+  .enquiry-form input,
+  .enquiry-form textarea {
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-top: 5px;
+  }
+  
+  .enquiry-form input[type="file"] {
+    padding: 6px;
+  }
+  
+  .enquiry-form button {
+    margin-top: 20px;
+    padding: 12px;
+    background-color: #2D336B;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .enquiry-form button:hover {
+    background-color: #1d254c;
+  }
+  .insurance-section {
+    padding: 40px;
+    background-color: #f9f9f9;
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .insurance-section h2 {
+    color: #2D336B;
+    margin-bottom: 30px;
+    font-size: 28px;
+  }
+  
+  .insurance-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .insurance-card {
+    background: white;
+    border: 1px solid #ddd;
+    width: 180px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .insurance-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .insurance-card img {
+    width: 100%;
+    height: 80px;
+    object-fit: contain;
+    margin-bottom: 10px;
+  }
+  
+  .insurance-card p {
+    font-weight: bold;
+    color: #333;
+    font-size: 14px;
+  }
+          
